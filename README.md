@@ -1,11 +1,12 @@
 # My 2026 Digital Time Capsule
 
-Welcome to my personal archive. This project serves as a snapshot of my current skills, goals, and technological perspectives.
+Welcome to my personal archive. This project serves as a snapshot of my current skills, goals, and technological perspectives as an Information Systems student.
 
 ## Current Snapshot
-- Current Focus: Exploring Git and Version Control
+- Current Focus: Exploring Git, Version Control, and Computer Science Fundamentals
 - Current Year: 2026
-- Ultimate Tech Goal: [Insert your goal here, e.g., Full-Stack Dev, AI Engineer]
+- Ultimate Tech Goal: Full-Stack Developer & AI Engineer
+- Certifications & Education: Verified Microsoft Certified Professional via Credly & Harvard University Free Course Scholar
 
 ## Predictions for My Future Self
 - [ ] I will successfully automate my first workflow deployment.
