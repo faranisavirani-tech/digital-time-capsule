@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Git Terminal Escape</title>
+    <style>
+        body { background-color: #0d1117; color: #58a6ff; font-family: monospace; padding: 40px; }
+        .console { border: 1px solid #30363d; padding: 20px; border-radius: 6px; background-color: #161b22; }
+        h1 { color: #238636; }
+        button { background-color: #238636; color: white; border: none; padding: 10px 15px; margin-top: 15px; cursor: pointer; font-family: monospace; border-radius: 4px; }
+        button:hover { background-color: #2ea043; }
+    </style>
+</head>
+<body>
+    <div class="console">
+        <h1>$ system_init --status="trapped"</h1>
+        <p id="story">You wake up inside a dark server room. A terminal screen blinks in front of you with an open Git repository. There is a locked door behind you.</p>
+        <div id="choices">
+            <button onclick="chooseOption(1)">Run 'git log' to see who was here last</button>
+            <button onclick="chooseOption(2)">Type 'git checkout escape-room'</button>
+        </div>
+    </div>
+
+    <script>
+        function chooseOption(choice) {
+            const story = document.getElementById('story');
+            const choices = document.getElementById('choices');
+            if (choice === 1) {
+                story.innerHTML = "The logs show a user named 'The_Architect' left a message: 'The key is in the staging area.' You run 'git status' and find a file called hidden_key.txt. You unlocked the door and escaped.";
+                choices.innerHTML = "<strong>Status: Success. You escaped the repo loop.</strong>";
+            } else if (choice === 2) {
+                story.innerHTML = "Error: Branch 'escape-room' does not exist. A security alert is triggered and the console locks up. Refresh the page to reboot the system.";
+                choices.innerHTML = "<button onclick='location.reload()'>Reboot Terminal</button>";
+            }
+        }
+    </script>
+</body>
+</html>
