@@ -1,4 +1,3 @@
-````markdown
 <!-- ============================== -->
 <!--          HEADER SECTION        -->
 <!-- ============================== -->
@@ -375,4 +374,3 @@ Open To:
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:5B21B6,50:7C3AED,100:2563EB"/>
 
 </div>
-````
